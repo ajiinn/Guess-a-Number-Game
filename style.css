@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1633218388467-539651dcf81f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2FtZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    height: 100%;
+    width: 99%;
+    background-size: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-shadow: 1px 1px 4px rgb(167, 0, 167);
+}
+.container{
+    margin-top: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.073);
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+}
+#lose{
+    padding-bottom: 10px;
+}
+#result{
+    height: 70px;
+    width: 100%;
+    margin-top: 15px; 
+}
+#result h3{
+    margin: 0 20px;
+}
+
+input{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.227);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 60px;
+    width: 280px;
+    text-align: center;
+    border-style:hidden;
+    font-size: 20px;
+    color: lightyellow;
+}
+input::placeholder{
+    font-size: 20px;
+}
+button{
+    height: 45px;
+    width: 200px;
+    background: rgba(213, 34, 147, 0.364);
+    border-style: hidden;
+    border-radius: 30px;
+    color: lightyellow;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    height: 48px;
+    width: 210px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+#reload{
+    margin: 10px 660px;
+    
+}
+#pagain{
+    margin: 10px 660px;
+    
+}
+#btn{
+    margin: 10px 660px;
+}
+
+
+@media (max-width: 1300px){
+    #reload, #pagain, #btn{
+        margin: 0;
+    }
+}
+@media (max-width: 700px){
+    #reload, #pagain, #btn{
+        margin: 0;
+    }
+}
+@media (max-width: 350px){
+    #reload, #pagain, #btn{
+        margin: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+}

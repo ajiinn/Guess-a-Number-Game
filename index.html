@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Guess Number Game</h1>
+    <div class="container">
+        <input onchange="myclear()" type="number" id="input" placeholder="Guess a no from 1-10" ><br>
+        <button id='btn' onclick="myinput()">Continue</button><br>
+
+        <div id="result">
+            <h3 id="aii">&nbsp; &nbsp; AI - <span id="ai"></span></h3>
+            <h3>User - <span id="user"></span></h3>
+            <h2 id="win">You win!</h3>
+            <h2 id="lose">You lose!</h3>
+        </div><br>  
+        <button id="reload" onclick="myreload()">Try Again</button>
+        <button id="pagain" onclick="playagain()">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
